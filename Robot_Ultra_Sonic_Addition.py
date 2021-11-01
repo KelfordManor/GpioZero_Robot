@@ -32,7 +32,7 @@ echo = gpiozero.DigitalInputDevice(ECHO)
 # Change the order of the numbers inside
 # the parentheses until you get the desired
 # behavior.
-robot = gpiozero.Robot(left=(11, 13), right=(7, 15), forward=(11, 15))
+robot = gpiozero.Robot(left=(7, 13), right=(11, 15), forward=(7, 15), reverse=(11, 13))
 
 
 # Get the distance to the object
