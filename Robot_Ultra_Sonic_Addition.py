@@ -10,10 +10,8 @@ import time  # Time library
 # using an HC-SR04 ultrasonic distance sensor.
 
 # Assign the GPIO pin number to these variables.
-#TRIG = 23
-#ECHO = 24
-TRIG = 29
-ECHO = 16
+TRIG = 29 #TRIG = 23
+ECHO = 16 #ECHO = 24
 
 # This sends out the signal to the object
 trigger = gpiozero.OutputDevice(TRIG)
